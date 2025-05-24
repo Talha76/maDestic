@@ -97,7 +97,9 @@ export default function ServicesPage() {
         </Div>
       </Div>
       <Spacing lg='150' md='80'/>
-      <Div className="container">
+
+      {/* Start of pricing section */}
+      {/* <Div className="container">
         <SectionHeading
           title='Providing best <br/>pricing for client' 
           subtitle='Pricing & Packaging'
@@ -105,12 +107,14 @@ export default function ServicesPage() {
         <Spacing lg='85' md='40'/>
         <PricingTableList/>
       </Div>
-      <Spacing lg='125' md='55'/>
+      <Spacing lg='125' md='55'/> */}
+      {/* End of pricing section */}
+
       <TestimonialSlider/>
       <Spacing lg='150' md='80'/>
       <Div className="container">
         <Cta 
-          title='Let’s disscuse make <br />something <i>cool</i> together' 
+          title='Let’s discuss make <br />something <i>cool</i> together' 
           btnText='Apply For Meeting' 
           btnLink='/contact' 
           bgSrc='/images/cta_bg.jpeg'
