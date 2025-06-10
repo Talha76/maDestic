@@ -18,13 +18,21 @@ import Card from './ui/Card';
 // Hero Social Links
 const heroSocialLinks = [
   {
-    name: 'Behance',
+    name: 'Facebook',
+    links: '/',
+  },
+  {
+    name: 'Instagram',
     links: '/',
   },
   {
     name: 'Twitter',
     links: '/',
   },
+  {
+    name: 'Github',
+    links: '/',
+  }
 ];
 // FunFact Data
 const funfaceData = [
@@ -218,7 +226,7 @@ export default function Home() {
       {/* End Video Block Section */}
 
       {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
           title="Awesome team <br/>members"
@@ -228,7 +236,7 @@ export default function Home() {
         <Spacing lg="85" md="45" />
         <TeamSlider />
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}
