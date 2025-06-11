@@ -12,70 +12,70 @@ const caseStudyData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_4.jpeg',
     category: 'ui_ux_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_5.jpeg',
     category: 'logo_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_6.jpeg',
     category: 'web_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_7.jpeg',
     category: 'mobile_apps',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_8.jpeg',
     category: 'ui_ux_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_9.jpeg',
     category: 'web_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_10.jpeg',
     category: 'logo_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_4.jpeg',
     category: 'ui_ux_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_5.jpeg',
     category: 'logo_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_6.jpeg',
     category: 'web_design',
   },
@@ -108,12 +108,12 @@ export default function CaseStudyPage() {
       <PageHeading
         title="Case Studies"
         bgSrc="/images/casestudy_hero_bg.jpeg"
-        pageLinkText="Portfolio"
+        pageLinkText="Case Studies"
       />
       <Spacing lg="145" md="80" />
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
-          <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
+          <SectionHeading title="Some recent work" subtitle="Our Case Studies" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
