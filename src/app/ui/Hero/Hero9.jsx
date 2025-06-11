@@ -11,7 +11,7 @@ export default function Hero9({
   btnLink,
   btnText,
   bgImageUrl,
-  spiningCircleUrl,
+  spinningCircleUrl,
   videoSrc,
 }) {
   const [iframeSrc, setIframeSrc] = useState('about:blank');
@@ -49,7 +49,7 @@ export default function Hero9({
                   className="cs-hero_video_btn cs-center"
                   onClick={handelClick}
                 >
-                  <img src={spiningCircleUrl} alt="Rotate" />
+                  <img src={spinningCircleUrl} alt="Rotate" />
                   <svg
                     width={25}
                     height={32}

@@ -193,7 +193,7 @@ export default function Header({ variant }) {
                     </li> */}
                     <li>
                       <Link
-                        href="/portfolio"
+                        href="/case-study"
                         onClick={() => setMobileToggle(false)}
                       >
                         Case Studies

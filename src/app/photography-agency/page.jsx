@@ -36,7 +36,7 @@ const heroData = [
     href: '/service/service-details',
   },
 ];
-const funfaceData = [
+const funFactData = [
   {
     title: 'Products',
     factNumber: '550',
@@ -203,7 +203,7 @@ export default function PhotographyAgencyHome() {
       <Spacing lg="140" md="80" />
       {/* Start FunFact Section */}
       <Div className="container">
-        <FunFact2 data={funfaceData} variant="cs-type2" />
+        <FunFact2 data={funFactData} variant="cs-type2" />
       </Div>
       {/* End FunFact Section */}
 

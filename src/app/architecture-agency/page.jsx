@@ -14,7 +14,7 @@ import Spacing from '@/app/ui/Spacing';
 import ContactInfoWidget from '@/app/ui/Widget/ContactInfoWidget';
 import { Icon } from '@iconify/react';
 
-const funfaceData = [
+const funFactData = [
   {
     title: 'Global Happy Clients',
     factNumber: '40K',
@@ -68,7 +68,7 @@ export default function ArchitectureAgencyHome() {
         btnLink="/about"
         btnText="Load More"
         bgImageUrl="/images/hero_bg_6.jpeg"
-        spiningCircleUrl="/images/hero_img_6.svg"
+        spinningCircleUrl="/images/hero_img_6.svg"
         videoSrc="https://www.youtube.com/watch?v=VcaAVWtP48A"
       />
       {/* Start About Section */}
@@ -183,11 +183,11 @@ export default function ArchitectureAgencyHome() {
             variant="cs-type2"
             title="Our fun fact"
             subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
-            data={funfaceData}
+            data={funFactData}
           />
         </div>
       </section>
-      {/* Start Portfolio Section */}
+      {/* Start spinningCircleUrlPortfolio Section */}
       <Spacing lg="150" md="50" />
       <Div>
         <Div className="container">

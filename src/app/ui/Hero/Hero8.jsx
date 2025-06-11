@@ -12,7 +12,7 @@ export default function Hero8({
   socialLinksHeading,
   heroSocialLinks,
   bannerHighlightText,
-  spiningCircleUrl,
+  spinningCircleUrl,
 }) {
   return (
     <div
@@ -44,7 +44,7 @@ export default function Hero8({
       <div className="cs-hero_highlite cs-primary_color cs-accent_color cs-center">
         {bannerHighlightText}
         <div className="cs-round_img cs-center">
-          <img src={spiningCircleUrl} alt="Circle" />
+          <img src={spinningCircleUrl} alt="Circle" />
         </div>
       </div>
       <VerticalLinks

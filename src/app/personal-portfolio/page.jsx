@@ -13,7 +13,7 @@ import { Icon } from "@iconify/react";
 
 
 // import TestimonialSliderStyle4 from '../Slider/TestimonialSliderStyle4';
-const funfaceData = [
+const funFactData = [
   {
     title: 'HTML5',
     factNumber: '90%',
@@ -197,7 +197,7 @@ export default function PersonalPortfolioHome() {
             variant="cs-type2"
             title="My tech skills"
             subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
-            data={funfaceData}
+            data={funFactData}
           />
         </div>
       </section>
@@ -370,7 +370,7 @@ export default function PersonalPortfolioHome() {
       {/* End Testimonial Section */}
       {/* Start CTA Section */}
       <Cta
-        title="Let’s disscuse make <br />something <i>cool</i> together"
+        title="Let’s discuss make <br />something <i>cool</i> together"
         btnText="Apply For Meeting"
         btnLink="/contact"
         bgSrc="/images/cta_bg_5.jpeg"
