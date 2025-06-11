@@ -158,6 +158,8 @@ export default function AboutPage() {
           title="Awesome team <br/>members"
           subtitle="Our Team"
           variant="cs-style1"
+          btnText="Get to know the team"
+          btnLink="/team"
         />
         <Spacing lg="85" md="45" />
         <TeamSlider />
