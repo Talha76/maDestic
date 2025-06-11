@@ -58,25 +58,25 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_1.jpeg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_2.jpeg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_0.jpg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_3.jpeg',
   },
 ];
@@ -171,20 +171,20 @@ export default function Home() {
       </Div>
       {/* End Service Section */}
 
-      {/* Start Portfolio Section */}
+      {/* Start Case Study Section */}
       <Spacing lg="150" md="50" />
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
+            title="Case studies to explore"
+            subtitle="Latest Case Studies"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
         </Div>
         <PortfolioSlider data={portfolioData} />
       </Div>
-      {/* End Portfolio Section */}
+      {/* End Case Study Section */}
 
       {/* Start Awards Section */}
       <Spacing lg="150" md="80" />
