@@ -35,7 +35,7 @@ const heroSocialLinks = [
   }
 ];
 // FunFact Data
-const funfaceData = [
+const funFactData = [
   {
     title: 'Global Happy Clients',
     factNumber: '40K',
@@ -58,25 +58,25 @@ const portfolioData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_1.jpeg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_2.jpeg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_0.jpg',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_3.jpeg',
   },
 ];
@@ -103,7 +103,7 @@ export default function Home() {
           variant="cs-type1"
           title="Our fun fact"
           subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
-          data={funfaceData}
+          data={funFactData}
         />
       </div>
       {/* End FunFact Section */}
@@ -171,20 +171,20 @@ export default function Home() {
       </Div>
       {/* End Service Section */}
 
-      {/* Start Portfolio Section */}
+      {/* Start Case Study Section */}
       <Spacing lg="150" md="50" />
       <Div>
         <Div className="container">
           <SectionHeading
-            title="Portfolio to explore"
-            subtitle="Latest Projects"
+            title="Case studies to explore"
+            subtitle="Latest Case Studies"
             variant="cs-style1 text-center"
           />
           <Spacing lg="90" md="45" />
         </Div>
         <PortfolioSlider data={portfolioData} />
       </Div>
-      {/* End Portfolio Section */}
+      {/* End Case Study Section */}
 
       {/* Start Awards Section */}
       <Spacing lg="150" md="80" />
@@ -285,7 +285,7 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s discuss make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

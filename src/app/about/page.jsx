@@ -15,7 +15,7 @@ import aboutImg4 from '../../../public/images/about_img_4.jpeg'
 
 
 
-const funfaceData = [
+const funFactData = [
   {
     title: 'Global Happy Clients',
     factNumber: '40K',
@@ -101,7 +101,7 @@ export default function AboutPage() {
         <FunFact
           title="Our fun fact"
           subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
-          data={funfaceData}
+          data={funFactData}
         />
       </Div>
       {/* End Fun Fact Section */}
@@ -124,7 +124,7 @@ export default function AboutPage() {
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="Highly experienced pepole with us"
+              title="Highly experienced people with us"
               subtitle="Why Choose Us"
             >
               <Spacing lg="30" md="20" />
@@ -158,6 +158,8 @@ export default function AboutPage() {
           title="Awesome team <br/>members"
           subtitle="Our Team"
           variant="cs-style1"
+          btnText="Get to know the team"
+          btnLink="/team"
         />
         <Spacing lg="85" md="45" />
         <TeamSlider />
@@ -168,7 +170,7 @@ export default function AboutPage() {
       <Spacing lg="150" md="80" />
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s discuss make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

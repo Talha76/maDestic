@@ -36,7 +36,7 @@ export default function BlogDetailsPage() {
                   <span className="cs-posted_by">07 Mar 2022</span>
                   <Link href="/blog" className="cs-post_avatar">Tech</Link>
                 </Div>
-                <h2 className="cs-post_title">Creative studio programm coming soon</h2>
+                <h2 className="cs-post_title">Creative studio program coming soon</h2>
                 <p>Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Tortor posuere ac ut consequat semper viverra nam libero justo. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien et. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Purus sit amet luctus venenatis lectus. Nunc aliquet bibendum enim facilisis. Pretium viverra suspendisse potenti nullam ac tortor vitae.</p>
                 <blockquote className="cs-primary_font">
                   But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, who expound the actual teachings of the great explorer of the truth, the master.
@@ -110,7 +110,7 @@ export default function BlogDetailsPage() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta 
-          title='Let’s disscuse make <br />something <i>cool</i> together' 
+          title='Let’s discuss make <br />something <i>cool</i> together' 
           btnText='Apply For Meeting' 
           btnLink='/contact' 
           bgSrc='/images/cta_bg.jpeg'

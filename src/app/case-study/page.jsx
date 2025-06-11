@@ -8,74 +8,74 @@ import Spacing from "@/app/ui/Spacing";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 
-const portfolioData = [
+const caseStudyData = [
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_4.jpeg',
     category: 'ui_ux_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_5.jpeg',
     category: 'logo_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_6.jpeg',
     category: 'web_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_7.jpeg',
     category: 'mobile_apps',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_8.jpeg',
     category: 'ui_ux_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_9.jpeg',
     category: 'web_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_10.jpeg',
     category: 'logo_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_4.jpeg',
     category: 'ui_ux_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_5.jpeg',
     category: 'logo_design',
   },
   {
     title: 'Colorful Art Work',
     subtitle: 'See Details',
-    href: '/portfolio/portfolio-details',
+    href: '/case-study/case-study-details',
     src: '/images/portfolio_6.jpeg',
     category: 'web_design',
   },
@@ -99,21 +99,21 @@ const categoryMenu = [
   },
 ];
 
-export default function PortfolioPage() {
+export default function CaseStudyPage() {
   const [active, setActive] = useState('all');
   const [itemShow, setItemShow] = useState(7);
 
   return (
     <>
       <PageHeading
-        title="Portfolio"
-        bgSrc="/images/portfolio_hero_bg.jpeg"
-        pageLinkText="Portfolio"
+        title="Case Studies"
+        bgSrc="/images/casestudy_hero_bg.jpeg"
+        pageLinkText="Case Studies"
       />
       <Spacing lg="145" md="80" />
       <Div className="container">
         <Div className="cs-portfolio_1_heading">
-          <SectionHeading title="Some recent work" subtitle="Our Portfolio" />
+          <SectionHeading title="Some recent work" subtitle="Our Case Studies" />
           <Div className="cs-filter_menu cs-style1">
             <ul className="cs-mp0 cs-center">
               <li className={active === 'all' ? 'active' : ''}>
@@ -134,7 +134,7 @@ export default function PortfolioPage() {
         </Div>
         <Spacing lg="90" md="45" />
         <Div className="row">
-          {portfolioData.slice(0, itemShow).map((item, index) => (
+          {caseStudyData.slice(0, itemShow).map((item, index) => (
             <Div
               className={`${
                 index === 3 || index === 6 ? 'col-lg-8' : 'col-lg-4'
@@ -160,7 +160,7 @@ export default function PortfolioPage() {
         </Div>
 
         <Div className="text-center">
-          {portfolioData.length <= itemShow ? (
+          {caseStudyData.length <= itemShow ? (
             ''
           ) : (
             <>
