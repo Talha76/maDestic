@@ -35,7 +35,7 @@ const heroSocialLinks = [
   }
 ];
 // FunFact Data
-const funfaceData = [
+const funFactData = [
   {
     title: 'Global Happy Clients',
     factNumber: '40K',
@@ -103,7 +103,7 @@ export default function Home() {
           variant="cs-type1"
           title="Our fun fact"
           subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
-          data={funfaceData}
+          data={funFactData}
         />
       </div>
       {/* End FunFact Section */}
@@ -285,7 +285,7 @@ export default function Home() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s discuss make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg.jpeg"

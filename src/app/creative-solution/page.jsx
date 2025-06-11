@@ -215,7 +215,7 @@ export default function CreativeSolutionHome() {
       {/* End Testimonial Section */}
       {/* Start CTA Section */}
       <Cta
-        title="Let’s disscuse make <br />something <i>cool</i> together"
+        title="Let’s discuss make <br />something <i>cool</i> together"
         btnText="Apply For Meeting"
         btnLink="/contact"
         bgSrc="/images/cta_bg_5.jpeg"

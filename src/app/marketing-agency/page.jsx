@@ -24,7 +24,7 @@ const heroSocialLinks = [
     links: '/',
   },
 ];
-const funfaceData = [
+const funFactData = [
   {
     title: 'Digital products',
     factNumber: '550',
@@ -97,7 +97,7 @@ export default function MarketingAgencyHome() {
       <Spacing lg="150" md="80" />
       <Div className="container">
         <FunFact2
-          data={funfaceData}
+          data={funFactData}
           variant="cs-no_shadow"
           bgUrl="/images/funfact_shape_bg.svg"
         />
@@ -163,7 +163,7 @@ export default function MarketingAgencyHome() {
       {/* Start CTA Section */}
       <Div className="container">
         <Cta
-          title="Let’s disscuse make <br />something <i>cool</i> together"
+          title="Let’s discuss make <br />something <i>cool</i> together"
           btnText="Apply For Meeting"
           btnLink="/contact"
           bgSrc="/images/cta_bg_3.jpeg"

@@ -44,7 +44,7 @@ export default function PortfolioDetailsPage() {
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
-                <p className='cs-m0'>United Kindom</p>
+                <p className='cs-m0'>United Kingdom</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
